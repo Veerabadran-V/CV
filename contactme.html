@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>contact form</title>
+</head>
+<body>
+    <table>
+        <th>Contact Me</th>
+        <form action="mailto: veerabadranveeru@gmail.com" class="contactme" method="post" enctype="text/plain">
+            <div class="contactme">
+                <tr>
+                    <td><label for="fname">Your Name: </label></td>
+                    <td><input type="text" name="Yourname" id="fname" autocomplete="given-name"></td>
+                    <td><br /></td>
+                </tr>
+                <tr>
+                    <td><label for="email1">E-mail: </label></td>
+                    <td><input type="email" name="your email" id="email1" required autocomplete="email"></td>
+                    <td><br></td>
+                </tr>
+                <tr>
+                    <td><label for="number">Number: </label></td>
+                    <td><input type="text" name="Phone number" id="number" required minlength="2"
+                            maxlength="10" /><br /></td>
+                    <td><br></td>
+                </tr>
+                <tr>
+                    <td><label for="address">Address: </label><br></td>
+                    <td><input type="text" name="Flat Number" id="address" placeholder="Flat Number"></td>
+                    
+                </tr>
+                <tr>
+                    <td><label for="address1">Street: </label></td>
+                    <td><input type="text" name="Street" id="address1" placeholder="Street"><br></td>
+                </tr>
+                <tr>
+                    <td><label for="address2">State: </label></td>
+                    <td><input type="text" name="state" id="address2" placeholder="State"><br></td>
+                </tr>
+                <tr>
+                    <td><label for="address3">Pincode: </label></td>
+                    <td><input type="text" name="pincode" id="address3" placeholder="pincode" required></td>
+                </tr>
+                <tr>
+                    <td>Please submit your message: </td>
+                    <td><textarea name="formsumit" cols="30" rows="10"></textarea></td>
+                </tr>
+                <td><input type="submit" name="submit" value="submit" /></td>
+            </div>
+        </form>
+    </table>
+</body>
+
+</html>
